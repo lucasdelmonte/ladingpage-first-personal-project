@@ -16,6 +16,8 @@ En la primera etapa del proyecto se utilizarán HTML y CSS como principales leng
 1. Creación de la estructura de la página con HTML.
 2. Se le agregaron estilos al nav.
 3. Creación del README.
+4. Modificacion del README.
+5. Se le agregaron estilos al header.
 
 Esta sección se ira actualizando a medida que se vaya desarrollando el proyecto.
 

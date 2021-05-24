@@ -8,7 +8,6 @@ body{
 
 nav{
     height: 65px;
-    width: 100%;
     background-color: rgb(54, 54, 54);
     display: flex;
     flex-direction: row;
@@ -32,3 +31,30 @@ nav .enlaces{
 }
 
 /* Finaliza el nav */
+
+/* Comienza el header */
+
+header{
+    width: 100%;
+    height: 390px;
+    background: url('../img/FondoHeader.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+header h1{
+    width: 50%;
+    margin: 70px 0 0 18%;
+    font-size: 45px;
+}
+
+header p{
+    width: 40%;
+    margin: 50px 0 25px 18%;
+    font-size: 28px;
+}
+
+/* Finaliza el header */

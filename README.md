@@ -18,6 +18,7 @@ En la primera etapa del proyecto se utilizarán HTML y CSS como principales leng
 3. Creación del README.
 4. Modificacion del README.
 5. Se le agregaron estilos al header.
+6. Diseño responsive para el nav y el header, con puntos de quiebre en 1200px, 768px y 480px.
 
 Esta sección se ira actualizando a medida que se vaya desarrollando el proyecto.
 

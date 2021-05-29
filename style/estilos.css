@@ -129,7 +129,8 @@ header p{
 .servicios h2{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 27px;
+    margin-top: 25px;
+    margin-bottom: 15px;
     font-size: 35px;
 }
 
@@ -165,6 +166,16 @@ header p{
 
 
 
-/* Comienza el section de la galeria */
+/* Comienza el section de contacto */
 
-/* Finaliza el section de la galeria */
+.contacto{
+    background: yellow;
+}
+
+.background-contacto{
+    background-color: red;
+    height: 80px;
+    text-align: center;
+}
+
+/* Finaliza el section de contacto */

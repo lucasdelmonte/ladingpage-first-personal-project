@@ -304,6 +304,12 @@ input[type=submit]:hover{
     .redes_sociales h4{
         font-size: 23px;
     }
+
+    input[type=text],
+    input[type=email],
+    textarea{
+        width: 70%;
+    }
 }
     
 

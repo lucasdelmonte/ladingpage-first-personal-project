@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    src: url(../font/linotte-light-maisfontes.2d48/linotte-light.otf);
     font-family: 'Linotte ☞', 'Pier Sans', Arial, Helvetica, sans-serif; 
     background-color: rgb(217, 217, 217);
 }
@@ -164,7 +165,37 @@ header p{
 
 /* Finaliza el section de servicios */
 
+/* Comienza el section de ubicacion */
 
+.ubicacion{
+    width: 100%;
+    height: 400px;
+}
+
+
+.background-ubicacion{
+    background-color: #363636;
+    height: 70px;
+    text-align: center;
+}
+
+.ubicacion h2{  
+    padding-top: 20px;
+    color: white;
+}
+
+.mapa{
+    padding: 13px 11px 13px 11px;
+}
+
+iframe{
+    width: 100%;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.479);
+}
+
+/* Finaliza el section de ubicacion */
 
 /* Comienza el section de contacto */
 
@@ -182,10 +213,6 @@ header p{
     padding-top: 20px;
     color: white;
 }
-
-/* Finaliza el section de contacto */
-
-/* Comienza el section del formulario y redes */
 
 .contacto{  
     display: flex;
@@ -314,7 +341,7 @@ input[type=submit]:hover{
     
 
 
-/* Finaliza el section del formulario y redes */
+/* Finaliza el section de Contacto */
 
 /* Comienza el footer */
 

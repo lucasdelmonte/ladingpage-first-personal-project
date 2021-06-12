@@ -7,7 +7,7 @@ body{
 /* Comienza el nav */
 
 nav{
-    height: 65px;
+    height: 55px;
     background-color: rgb(54, 54, 54);
     display: flex;
     flex-direction: row;
@@ -169,13 +169,164 @@ header p{
 /* Comienza el section de contacto */
 
 .contacto{
-    background: yellow;
+    background-color: rgb(224, 224, 206);
 }
 
 .background-contacto{
-    background-color: red;
-    height: 80px;
+    background-color: #363636;
+    height: 70px;
     text-align: center;
 }
 
+.background-contacto h2{
+    padding-top: 20px;
+    color: white;
+}
+
 /* Finaliza el section de contacto */
+
+/* Comienza el section del formulario y redes */
+
+.contacto{  
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
+    width: 50%;
+    border-right: 1px solid rgb(128, 128, 128);
+}
+
+label{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+input[type=text],
+input[type=email]{
+    margin: 7px 0px 10px 0px;
+    width: 50%;
+    height: 35px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+input[type=text]:hover,
+input[type=email]:hover{
+    border-left: 2px groove rgb(53, 191, 255);
+    border-right: 2px groove rgb(53, 191, 255);
+}
+
+textarea{
+    margin: 7px 0px 10px 0px;
+    width: 50%;
+    border-radius: 4px; 
+    height: 80px;
+    resize: none;
+    border: 0px;
+}
+
+textarea:hover{
+    border-left: 2px groove rgb(53, 191, 255);
+    border-right: 2px groove rgb(53, 191, 255);
+}
+
+input[type=submit]{
+    margin-top: 7px;
+    border-radius: 4px;
+    width: 80px;
+    height: 33px;
+    border: 0;
+    background-color: rgb(53, 191, 255);
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(31, 231, 31);
+    color: white;
+}
+
+.redes_sociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
+    width: 50%;  
+    background-image: url('../img/FondoRedesSociales.png'); 
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-left: 1px groove rgb(128, 128, 128);
+}
+
+.redes_sociales img{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.redes_sociales h4{
+    margin-bottom: 0px;
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+.directo{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .contacto{
+        flex-direction: column;
+    }
+
+    form{
+        width: 100%;
+        border-right: 0px;
+        border-bottom: 1px groove rgb(128, 128, 128);
+    }
+
+    .redes_sociales{
+        width: 100%;
+        border-left: 0px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .redes_sociales h4{
+        font-size: 23px;
+    }
+}
+    
+
+
+/* Finaliza el section del formulario y redes */
+
+/* Comienza el footer */
+
+footer{
+    border-top: 1px groove rgb(128, 128, 128);
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+}
+
+footer h4{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 480px){
+    footer h4{
+        font-size: 16px;
+    }
+}
+
+/* Finaliza el footer */

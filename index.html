@@ -49,30 +49,35 @@
                 </div> 
             </div>
         </section>     
-        <section class="contacto" id="contacto">
+        <section id="contacto">
             <div class="background-contacto">   
                 <h2>Contacto</h2>
             </div>
-            <div class="formulario">
-                Nombre y apellido
-                <input type="text" name="nombre" id="nombre">
-                Correo
-                <input type="email" name="correo" id="correo">
-                Telefono
-                <input type="text" name="telefono" id="telefono">
-                Mensaje
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-            </div>
-            <div class="redes_sociales">
-                <h4>Redes Sociales</h4>
-                <img src="img/LogoInstagram.png" alt="Instagram" width="60px" height="60px">
-                <img src="img/LogoFacebook.png" alt="Facebook" width="57px" height="57px">
-                <h4>Contacto directo</h4>
-                <img src="img/LogoWhatsapp.png" alt="Whatsapp" width="60px" height="60px">
+            <div class="contacto">
+                <form action="datos.php" method=""> 
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" name="telefono" id="telefono">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+                <div class="redes_sociales">
+                    <h4>Redes Sociales</h4>
+                    <a href="https://www.instagram.com/teraflop.computacion/" target="_blank"><img src="img/LogoInstagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/TeraflopComputacion" target="_blank"><img src="img/LogoFacebook.png" alt="Facebook"></a>
+                    <div class="directo">
+                        <h4>Contacto directo</h4>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=543476589504" target="_blank"><img src="img/LogoWhatsapp.png" alt="Whatsapp"></a>
+                </div>
             </div>
         </section>
         <footer>
-            <h4>Diseñado y Desarrollado por Lucas Delmonte - CEO de Teraflop Computacion</h4>
+            <h4>Diseñado y Desarrollado por Lucas Delmonte - Estudiante de Ing. en Sistemas</h4>
         </footer>
     </div>
 </body>

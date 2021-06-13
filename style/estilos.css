@@ -1,7 +1,11 @@
+@font-face {
+    font-family: linotte-light;
+    src: url('../font/linotte-light-maisfontes.2d48/linotte-light.otf');
+}
+
 body{
     width: 100%;
-    src: url(../font/linotte-light-maisfontes.2d48/linotte-light.otf);
-    font-family: 'Linotte ☞', 'Pier Sans', Arial, Helvetica, sans-serif; 
+    font-family: linotte-light, sans-serif, Arial;
     background-color: rgb(217, 217, 217);
 }
 
@@ -310,6 +314,10 @@ input[type=submit]:hover{
     margin-top: 20px;
 }
 
+#fundamental{
+    display: none;
+}
+
 @media screen and (max-width: 1200px){
     .contacto{
         flex-direction: column;
@@ -339,7 +347,9 @@ input[type=submit]:hover{
     }
 }
     
-
+.aviso{
+    font-size: 5px;
+}
 
 /* Finaliza el section de Contacto */
 

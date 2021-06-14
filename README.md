@@ -11,9 +11,10 @@ Si bien el objetivo es la creación de la página no hay que olvidarse de que to
 
 En la primera etapa del proyecto se utilizarán HTML y CSS como principales lenguajes de diseño y priorizando el uso correcto de flexbox.
 
-![Diseño final de la Landing page](/prototype/Landing Page - Teraflop Computacion_V1.4.png)
+![Diseño final de la Landing page](https://raw.githubusercontent.com/lucasdelmonte/LandingPage_TeraflopComputacion/blob/master/prototype/Landing%20Page%20-%20Teraflop%20Computacion_V1.4.png)
 
 Enlace directo a [github pages](https://lucasdelmonte.github.io/LandingPage_TeraflopComputacion/)
+
 
 Diseñado y creado por Lucas Delmonte - Estudiante de Ing. en Sistemas
 

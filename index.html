@@ -1,100 +1,122 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/estilos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css"/>
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/estilos.css" />
     <title>Teraflop Computación</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="contenedor">
-        <nav id="nav">  
-            <img src="img/TERAFLOP LUKE 2 png...png" alt="Logo">
-            <div class="menu">
-                <img src="img/menu_50px.png" alt="Menu" id="btn_menu">
+      <nav id="nav">
+        <img src="img/TERAFLOP LUKE 2 png...png" alt="Logo" />
+        <div class="menu">
+          <img src="img/menu_50px.png" alt="Menu" id="btn_menu" />
+        </div>
+        <div class="enlaces">
+          <a href="#nosotros" class="enlace oculto">¿Quiénes somos?</a>
+          <a href="#servicios" class="enlace oculto">Servicios</a>
+          <a href="#ubicacion" class="enlace oculto">Ubicación</a>
+          <a href="#contacto" class="enlace oculto">Contacto</a>
+          <a href="galeria.html" class="enlace oculto">Galeria</a>
+        </div>
+      </nav>
+      <header id="nosotros">
+        <h1>¿Quiénes somos?</h1>
+        <p>
+          Somos un grupo de técnicos con un objetivo en común, el de ayudar a
+          las personas a resolver sus problemas con las computadoras.
+        </p>
+      </header>
+      <section class="servicios">
+        <h2>Nuestros servicios</h2>
+        <div class="servicios">
+          <div class="caja1" id="servicio">
+            <img src="img/CambioPasta.png" alt="Matenimiento preventivo" />
+            <h3>Matenimiento preventivo</h3>
+            <p>
+              Remover el polvo, cambiar la pasta térmica para evitar altas
+              temperaturas.
+            </p>
+          </div>
+          <div class="caja2" id="servicio">
+            <img src="img/CorelDraw.jpg" alt="Instalacion de software" />
+            <h3>Software</h3>
+            <p>Software de diseño, educación, arquitectura, oficina, etc.</p>
+          </div>
+          <div class="caja3" id="servicio">
+            <img src="img/Armado.jpg" alt="Armado a pedido" />
+            <h3>Armado a pedido</h3>
+            <p>
+              PC para diseñadores, arquitectores, contadores, universitarios,
+              gamers, etc.
+            </p>
+          </div>
+          <div class="caja4" id="servicio">
+            <img src="img/DiscoSSD.jpg" alt="Hardware y perifericos" />
+            <h3>Hardware y periféricos</h3>
+            <p>
+              Hardware y periféricos a pedido disponibles en el mercado
+              argentino.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="ubicacion" id="ubicacion">
+        <div class="background-ubicacion">
+          <h2>Ubicación</h2>
+        </div>
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.609155044023!2d-61.17047948430601!3d-32.58994606125143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b61bb9bf1fca6b%3A0x50d59e49697c7673!2sTeraflop%20Computaci%C3%B3n!5e0!3m2!1ses-419!2sar!4v1623535293331!5m2!1ses-419!2sar"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+      <section id="contacto">
+        <div class="background-contacto">
+          <h2>Contacto</h2>
+        </div>
+        <div class="contacto">
+          <form action="" id="form">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="asunto">Asunto</label>
+            <input type="text" name="asunto" id="asunto" />
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            <input type="submit" value="Enviar" />
+            <a href="mailto:teraflop.computacion@gmail.com" id="fundamental">mail</a>
+          </form>
+          <div class="redes_sociales">
+            <h4>Redes Sociales</h4>
+            <a href="https://www.instagram.com/teraflop.computacion/" target="_blank">
+              <img src="img/LogoInstagram.png" alt="Instagram" /></a>
+            <a href="https://www.facebook.com/TeraflopComputacion" target="_blank">
+              <img src="img/LogoFacebook.png" alt="Facebook" /></a>
+            <div class="directo">
+              <h4>Contacto directo</h4>
             </div>
-            <div class="enlaces">
-                <a href="#nosotros" class="enlace oculto">¿Quiénes somos?</a>
-                <a href="#servicios" class="enlace oculto">Servicios</a>
-                <a href="#ubicacion" class="enlace oculto">Ubicación</a>
-                <a href="#contacto" class="enlace oculto">Contacto</a>  
-                <a href="galeria.html" class="enlace oculto">Galeria</a>    
-            </div>
-        </nav>
-        <header id="nosotros">
-            <h1>¿Quiénes somos?</h1>
-            <p>Somos un grupo de técnicos con un objetivo en común, el de ayudar a las personas a resolver sus problemas con las computadoras.</p>
-        </header>
-        <section class="servicios" id="servicios">
-            <h2>Nuestros servicios</h2>
-            <div class="servicios">
-                <div class="caja1">
-                    <img src="img/CambioPasta.png" alt="Matenimiento preventivo">
-                    <h3>Matenimiento preventivo</h3>
-                    <p>Remover el polvo, cambiar la pasta térmica para evitar altas temperaturas.</p>
-                </div> 
-                <div class="caja2">
-                    <img src="img/CorelDraw.jpg" alt="Instalacion de software">
-                    <h3>Software</h3>
-                    <p>Software de diseño, educación, arquitectura, oficina, etc.</p>
-                </div> 
-                <div class="caja3">
-                    <img src="img/Armado.jpg" alt="Armado a pedido">
-                    <h3>Armado a pedido</h3>
-                    <p>PC para diseñadores, arquitectores, contadores, universitarios, gamers, etc.</p>
-                </div> 
-                <div class="caja4">
-                    <img src="img/DiscoSSD.jpg" alt="Hardware y perifericos">
-                    <h3>Hardware y periféricos</h3>
-                    <p>Hardware y periféricos a pedido disponibles en el mercado argentino.</p>
-                </div> 
-            </div>
-        </section> 
-        <section class="ubicacion" id="ubicacion">  
-            <div class="background-ubicacion">
-                <h2>Ubicación</h2>
-            </div> 
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.609155044023!2d-61.17047948430601!3d-32.58994606125143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b61bb9bf1fca6b%3A0x50d59e49697c7673!2sTeraflop%20Computaci%C3%B3n!5e0!3m2!1ses-419!2sar!4v1623535293331!5m2!1ses-419!2sar" 
-                style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-             </div>    
-        </section>    
-        <section id="contacto">
-            <div class="background-contacto">   
-                <h2>Contacto</h2>
-            </div>
-            <div class="contacto">
-                <form action="" id="form"> 
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="asunto">Asunto</label>
-                    <input type="text" name="asunto" id="asunto">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje"></textarea>
-                    <input type="submit" value="Enviar">
-                    <a href="mailto:teraflop.computacion@gmail.com" id="fundamental">mail</a>
-                </form>
-                <div class="redes_sociales">
-                    <h4>Redes Sociales</h4>
-                    <a href="https://www.instagram.com/teraflop.computacion/" target="_blank"><img src="img/LogoInstagram.png" alt="Instagram"></a>
-                    <a href="https://www.facebook.com/TeraflopComputacion" target="_blank"><img src="img/LogoFacebook.png" alt="Facebook"></a>
-                    <div class="directo">
-                        <h4>Contacto directo</h4>
-                    </div>
-                    <a href="https://api.whatsapp.com/send?phone=543476589504" target="_blank"><img src="img/LogoWhatsapp.png" alt="Whatsapp"></a>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <h4>Diseñado y Desarrollado por Lucas Delmonte - Estudiante de Ing. en Sistemas</h4>
-        </footer>
+            <a href="https://api.whatsapp.com/send?phone=543476589504" target="_blank">
+                <img src="img/LogoWhatsapp.png" alt="Whatsapp" /></a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <h4>
+          Diseñado y Desarrollado por Lucas Delmonte - Estudiante de Ing. en
+          Sistemas
+        </h4>
+      </footer>
     </div>
 
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>

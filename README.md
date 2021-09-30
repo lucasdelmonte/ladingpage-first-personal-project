@@ -14,7 +14,8 @@ En este proyecto se utilizarán HTML y CSS como principales lenguajes de diseño
 
 ### Diseño final
 
-![Landing Page - Teraflop Computacion_V1 4](https://user-images.githubusercontent.com/82593976/122244403-3dfa5200-ce9b-11eb-8365-7135405c2bd8.png)
+![Landing Page - Teraflop Computacion_V1 5](https://user-images.githubusercontent.com/82593976/135367796-ecd33761-bac1-4f3f-8587-7e2719d68870.png)
+
 
 Nota: puede visualizar los cambios en el diseño desde la carpeta prototype.
 

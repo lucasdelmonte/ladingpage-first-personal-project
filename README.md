@@ -19,7 +19,7 @@ En este proyecto se utilizarán HTML y CSS como principales lenguajes de diseño
 
 Nota: puede visualizar los cambios en el diseño desde la carpeta prototype.
 
-Enlace directo a [github pages](https://lucasdelmonte.github.io/LandingPage_TeraflopComputacion/) para visualizar la página.
+Enlace directo a [github pages](https://lucasdelmonte.github.io/ladingpage-first-personal-project/) para visualizar la página.
 
 <p align="center">Diseñado y Desarrollado por Lucas Delmonte - Estudiante de Ing. en Sistemas</p>
 
